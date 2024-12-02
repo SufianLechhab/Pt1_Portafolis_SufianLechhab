@@ -1,0 +1,266 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+background-color: #111;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-left: 10px;
+    margin-left: 10px; 
+    color: white;
+}
+
+
+#rellotge {
+    font-size: 1.2rem;
+    color: white;
+    top: 10px;
+    font-size:x-large;
+    
+}
+
+header h1{
+   
+background-color: hsl(213, 75%, 44%);
+text-align: center;
+padding: 20px;
+margin: auto;
+font-size: 50px;
+}
+
+header ul{
+
+background-color: hsl(213, 75%, 44%);
+text-align: center;
+border-radius: 10px;
+padding: 5px;
+font-family:'Times New Roman', Times, serif;
+color: black;
+font-size: 20px;
+
+}
+a{
+    margin-top: 0 10px;    
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+font-family:Georgia, 'Times New Roman', Times, serif;
+align-items: center;
+text-align: center;
+}
+
+#primer{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+float: inline-start;
+margin: 20px 60px;
+display: flex;
+height: auto;
+width: auto;
+max-width: 3000px;
+text-align: left; 
+padding: auto;
+}
+
+.js1 {
+padding: 20px;
+max-width: 3000px;
+border-right: 4px solid white;
+
+
+}
+
+.js2 {
+padding: 20px;
+max-width: 3000px;
+border-right: 4px solid white;
+
+
+}
+
+.js3{
+padding: 20px;
+max-width: 3000px;
+
+}
+
+
+.bloc{
+    background-color: rgb(0, 31, 58);
+    
+}
+
+header{
+background-color: hsl(213, 75%, 44%);
+text-align: center;
+}
+
+.skills{
+background:hsl(213, 75%, 44%);
+padding: 1rem 2.5rem;
+}
+
+/* Projectes */
+.project {
+    background-color: rgb(0, 31, 58);
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover; /* Assegurem que la imatge no es distorsioni */
+}
+
+.project ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project li {
+    margin-bottom: 1rem;
+    color: #ccc;
+}
+
+.project li strong {
+    font-weight: bold;
+    color: white;
+}
+
+.project p {
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Estils per a la image */
+.project img {
+    border-radius: 8px;
+    object-fit: cover; /* Fa que l'imatge s'ajusti be dins del contenidor */
+    max-height: 300px;
+}
+
+footer {
+    color: white;
+    background-color: hsl(213, 75%, 44%);
+    text-align: center; 
+    padding: 40px; 
+    clear: both; 
+}
+
+
+.foter1 {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin: 0; 
+    padding: 10px; 
+font-size: 40px;
+}
+
+
+h2{
+font-size: 40px;
+
+}
+
+
+.skills {
+    background: hsl(213, 75%, 44%);
+    padding: 1rem 2.5rem;
+    display: flex;
+    flex-wrap: wrap; /* Permet que els elements es moguin a la següent línia si és necessari */
+    gap: 1rem; /* Espai entre les caixes */
+    justify-content: center; 
+  }
+  
+  .skill {
+    background-color: #fff; 
+    color: #333; 
+    padding: 1rem 2rem; 
+    border-radius: 8px; 
+    text-align: center; 
+    font-weight: bold; 
+    text-decoration: none; 
+    width: 150px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra suau  */
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombra */
+  }
+  
+  /* Formulari de contacte */
+#contact-form {
+    background-color: hsl(213, 75%, 44%);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    color: white;
+}
+
+
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 70%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact-form textarea:focus {
+    outline: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#contact-form button {
+    background-color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact-form button:hover {
+    background-color: rgba(9, 97, 148, 0.8);
+    color: #111;
+}
+
+
+#planificacio, #disseny, #desenvolupament, #test {
+    background-color: rgb(0, 31, 58);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#planificacio p, #disseny p, #desenvolupament p, #test p {
+    color: #ddd;
+    text-align: justify;
+}
